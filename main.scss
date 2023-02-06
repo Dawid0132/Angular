@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$main-font: 'Roboto';
+$main-color: #390cfe;
+$main-sizing: 100%;
+
+body, html {
+  font-family: $main-font;
+  height: $main-sizing;
+  width: $main-sizing;
+}
+
+#carouselExampleCaptions {
+  .carousel-item {
+    height: 100vh;
+
+    svg {
+      width: $main-sizing;
+      height: $main-sizing;
+    }
+  }
+}
+
+img {
+  height: $main-sizing;
+  width: $main-sizing;
+}
+
+.img-thumbnail{
+  img{
+    height: 400px;
+  }
+}
+
+/*#secondSection {
+  height: 500px;
+
+  div {
+    margin: 0 5px;
+    background-color: $main-color;
+    height: 100%;
+  }
+}*/
+
